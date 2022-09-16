@@ -1,7 +1,56 @@
 # Rails GUI
 ## User-Friendly Rails Configuration
+[![Gem Version](https://badge.fury.io/rb/rails-gui.svg)](http://badge.fury.io/rb/rails-gui)
 
-Rails GUI (e.g. display routes in a table, run rails commands visually, etc...)
+Rails Graphical User Interface (e.g. display routes in a table, run rails commands visually, etc...)
+
+![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.png)
+
+## Setup
+
+### RubyGem
+
+Install (if using [RVM](https://rvm.io/), in the same [gemset](https://rvm.io/gemsets/basics) as your Rails app):
+
+```
+gem install rails-gui
+```
+
+### Bundler
+
+Add to `Gemfile` under `development` group:
+
+```ruby
+group :development do
+  gem 'rails-gui'
+end
+```
+
+Run:
+
+```
+bundle
+```
+
+## Usage
+
+Run:
+
+```
+rails-gui
+```
+
+Screenshot:
+
+![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.png)
+
+## TODO
+
+[TODO.md](TODO.md)
+
+## Change Log
+
+[CHANGELOG.md](CHANGELOG.md)
 
 ## Contributing to rails-gui
 
@@ -21,6 +70,10 @@ Rails GUI (e.g. display routes in a table, run rails commands visually, etc...)
 
 ## Copyright
 
-[MIT](LICENSE.txt]
+[MIT](LICENSE.txt)
 
-Copyright (c) 2022 Andy Maleh. See [LICENSE.txt](LICENSE.txt] for further details.
+Copyright (c) 2022 Andy Maleh. See [LICENSE.txt](LICENSE.txt) for further details.
+
+--
+
+[<img src="https://raw.githubusercontent.com/AndyObtiva/glimmer/master/images/glimmer-logo-hi-res.png" height=40 />](https://github.com/AndyObtiva/glimmer) Built with [Glimmer DSL for LibUI](https://github.com/AndyObtiva/glimmer-dsl-libui) (Ruby Desktop Development GUI Library)

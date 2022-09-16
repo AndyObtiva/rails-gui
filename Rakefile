@@ -17,10 +17,12 @@ Juwelier::Tasks.new do |gem|
   gem.homepage = "http://github.com/AndyObtiva/rails-gui"
   gem.license = "MIT"
   gem.summary = %Q{Rails Graphical User Interface}
-  gem.description = %Q{Rails GUI (e.g. display routes in a table, run rails commands visually, etc...)}
+  gem.description = %Q{Rails Graphical User Interface - User-Friendly Rails Configuration (e.g. display routes in a table, run rails commands visually, etc...)}
   gem.email = "andy.am@gmail.com"
   gem.authors = ["Andy Maleh"]
-
+  gem.files = Dir['rails-gui.gemspec', 'CHANGELOG.md', 'VERSION', 'LICENSE.txt', 'app/**/*', 'bin/**/*', 'config/**/*', 'db/**/*', 'docs/**/*', 'fonts/**/*', 'icons/**/*', 'images/**/*', 'lib/**/*', 'package/**/*', 'script/**/*', 'sounds/**/*', 'vendor/**/*', 'videos/**/*']
+  gem.executables = ['rails-gui']
+  
   # dependencies defined in Gemfile
 end
 Juwelier::RubygemsDotOrgTasks.new
