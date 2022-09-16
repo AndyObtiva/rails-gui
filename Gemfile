@@ -13,4 +13,5 @@ group :development do
   gem "juwelier", "~> 2.1.0"
   gem "simplecov", ">= 0"
   gem 'puts_debuggerer'
+  gem 'rake-tui'
 end

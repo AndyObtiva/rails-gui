@@ -12,18 +12,19 @@ module RailsGui
       end
       
       body {
+        menu('Routes') {
+          menu_item('Refresh') {
+            on_clicked do
+              @rails_routes_table.model_array = @rails_command.refresh_routes
+            end
+          }
+          quit_menu_item
+        }
+        
         window('Rails GUI', 1024, 640) {
           margined true
           
           vertical_box {
-            button('Refresh Rails Routes') {
-              stretchy false
-              
-              on_clicked do
-                @rails_routes_table.model_array = @rails_command.routes
-              end
-            }
-            
             @rails_routes_table = refined_table(
               model_array: @rails_command.routes,
               table_columns: {
@@ -35,6 +36,14 @@ module RailsGui
               },
               per_page: 1_000_000_000, # do not paginate
             )
+            
+            button('Refresh Rails Routes') {
+              stretchy false
+              
+              on_clicked do
+                @rails_routes_table.model_array = @rails_command.refresh_routes
+              end
+            }
           }
         }
       }

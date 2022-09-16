@@ -96,6 +96,8 @@ GEM
       multi_xml (~> 0.5)
       rack (>= 1.2, < 4)
     os (1.1.4)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
     perfect-shape (1.0.5)
       equalizer (>= 0.0.11, < 1.1.0)
       matrix (>= 0.4.2, < 1.1.0)
@@ -105,6 +107,8 @@ GEM
     racc (1.6.0)
     rack (3.0.0)
     rake (13.0.6)
+    rake-tui (0.2.3)
+      tty-prompt
     rchardet (1.8.0)
     rdoc (3.12.2)
       json (~> 1.4)
@@ -126,8 +130,19 @@ GEM
     super_module (1.4.1)
       method_source (>= 0.8.2, < 1.1.0)
     thread_safe (0.3.6)
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-prompt (0.23.1)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.1)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    wisper (2.0.1)
 
 PLATFORMS
   arm64-darwin-21
@@ -136,6 +151,7 @@ DEPENDENCIES
   glimmer-dsl-libui (~> 0.5.24)
   juwelier (~> 2.1.0)
   puts_debuggerer
+  rake-tui
   rdoc (~> 3.12)
   shoulda
   simplecov

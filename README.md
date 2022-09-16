@@ -1,10 +1,14 @@
-# Rails GUI
+# Rails GUI 0.0.2
 ## User-Friendly Rails Configuration
 [![Gem Version](https://badge.fury.io/rb/rails-gui.svg)](http://badge.fury.io/rb/rails-gui)
+
+[EARLY ALPHA]
 
 Rails Graphical User Interface (e.g. display routes in a table, run rails commands visually, etc...)
 
 ![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.png)
+
+Given that the project is still early alpha, this is your chance to contribute ideas and pull requests for the project with whatever you want or see value in! Please open issues or pull requests to share your ideas!
 
 ## Setup
 
@@ -13,7 +17,7 @@ Rails Graphical User Interface (e.g. display routes in a table, run rails comman
 Install (if using [RVM](https://rvm.io/), in the same [gemset](https://rvm.io/gemsets/basics) as your Rails app):
 
 ```
-gem install rails-gui
+gem install rails-gui -v0.0.2
 ```
 
 ### Bundler
@@ -22,7 +26,7 @@ Add to `Gemfile` under `development` group:
 
 ```ruby
 group :development do
-  gem 'rails-gui'
+  gem 'rails-gui', '~> 0.0.2'
 end
 ```
 
