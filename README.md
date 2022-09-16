@@ -2,6 +2,8 @@
 ## User-Friendly Rails Configuration
 [![Gem Version](https://badge.fury.io/rb/rails-gui.svg)](http://badge.fury.io/rb/rails-gui)
 
+[EARLY ALPHA]
+
 Rails Graphical User Interface (e.g. display routes in a table, run rails commands visually, etc...)
 
 ![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.png)
