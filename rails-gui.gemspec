@@ -27,7 +27,8 @@ Gem::Specification.new do |s|
     "app/rails-gui.rb",
     "app/rails_gui/model/rails_command.rb",
     "app/rails_gui/view/main_window.rb",
-    "bin/rails-gui"
+    "bin/rails-gui",
+    "rails-gui.gemspec"
   ]
   s.homepage = "http://github.com/AndyObtiva/rails-gui".freeze
   s.licenses = ["MIT".freeze]
