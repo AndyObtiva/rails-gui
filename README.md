@@ -8,6 +8,8 @@ Rails Graphical User Interface (e.g. display routes in a table, run rails comman
 
 ![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.png)
 
+Given that the project is still early alpha, this is your chance to contribute ideas and pull requests for the project with whatever you want or see value in! Please open issues or pull requests to share your ideas!
+
 ## Setup
 
 ### RubyGem
