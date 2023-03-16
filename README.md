@@ -1,4 +1,4 @@
-# Rails GUI 0.0.2
+# Rails GUI 0.0.3
 ## User-Friendly Rails Configuration
 [![Gem Version](https://badge.fury.io/rb/rails-gui.svg)](http://badge.fury.io/rb/rails-gui)
 
@@ -17,7 +17,7 @@ Given that the project is still early alpha, this is your chance to contribute i
 Install (if using [RVM](https://rvm.io/), in the same [gemset](https://rvm.io/gemsets/basics) as your Rails app):
 
 ```
-gem install rails-gui -v0.0.2
+gem install rails-gui -v0.0.3
 ```
 
 ### Bundler
@@ -26,7 +26,7 @@ Add to `Gemfile` under `development` group:
 
 ```ruby
 group :development do
-  gem 'rails-gui', '~> 0.0.2'
+  gem 'rails-gui', '~> 0.0.3'
 end
 ```
 

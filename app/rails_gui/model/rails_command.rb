@@ -34,7 +34,7 @@ module RailsGui
       end
       
       def fetch_routes
-        `rails routes`.lines.drop(1).map do |line|
+        `rails routes`.lines.drop(2).map do |line|
           cells = line.split
           cells.prepend('') if cells[0] && (cells[0] == cells[0].upcase)
           cells.insert(1, '') if cells[1] && (cells[1] != cells[1].upcase)

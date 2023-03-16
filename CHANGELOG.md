@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.3
+
+- Eliminate header from rails route table content
+
 ## 0.0.2
 
 - Load app instantly after first run by caching routes in a local file under ~/.rails-gui/routes.yml
