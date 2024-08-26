@@ -1,10 +1,10 @@
 # Rails GUI 0.0.3
-## User-Friendly Rails Configuration
+## User-Friendly Rails Productivity Tool
 [![Gem Version](https://badge.fury.io/rb/rails-gui.svg)](http://badge.fury.io/rb/rails-gui)
 
 [EARLY ALPHA]
 
-Rails Graphical User Interface (e.g. display routes in a table, run rails commands visually, etc...)
+Rails Graphical User Interface. Currently supports display of `rake routes` in a cached filterable table for quicker access. In the future, it could support things like running rails commands visually, plus other productivity features.
 
 ![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.png)
 
