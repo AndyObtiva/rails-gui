@@ -6,7 +6,7 @@
 
 Rails Graphical User Interface. Currently supports display of `rake routes` in a cached filterable table for quicker access. In the future, it could support things like running rails commands visually, plus other productivity features.
 
-![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.png)
+![rails gui rails routes screenshot](/screenshots/rails-gui-rails-routes.gif)
 
 Given that the project is still early alpha, this is your chance to contribute ideas and pull requests for the project with whatever you want or see value in! Please open issues or pull requests to share your ideas!
 
