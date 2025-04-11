@@ -1,4 +1,4 @@
-# Rails GUI 0.0.3
+# Rails GUI 0.0.4
 ## User-Friendly Rails Productivity Tool
 [![Gem Version](https://badge.fury.io/rb/rails-gui.svg)](http://badge.fury.io/rb/rails-gui)
 
@@ -17,7 +17,7 @@ Given that the project is still early alpha, this is your chance to contribute i
 Install (if using [RVM](https://rvm.io/), in the same [gemset](https://rvm.io/gemsets/basics) as your Rails app):
 
 ```
-gem install rails-gui -v0.0.3
+gem install rails-gui -v0.0.4
 ```
 
 ### Bundler
@@ -26,7 +26,7 @@ Add to `Gemfile` under `development` group:
 
 ```ruby
 group :development do
-  gem 'rails-gui', '~> 0.0.3'
+  gem 'rails-gui', '~> 0.0.4'
 end
 ```
 
@@ -76,7 +76,7 @@ Screenshot:
 
 [MIT](LICENSE.txt)
 
-Copyright (c) 2022 Andy Maleh. See [LICENSE.txt](LICENSE.txt) for further details.
+Copyright (c) 2022-2025 Andy Maleh. See [LICENSE.txt](LICENSE.txt) for further details.
 
 --
 

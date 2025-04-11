@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.4
+
+- Fix issue with using column filters (e.g. prefix:letter) crashing the app by upgrading to glimmer-dsl-libui version 0.12.8
+
 ## 0.0.3
 
 - Eliminate header from rails route table content
